@@ -1,0 +1,33 @@
+﻿@model VBHA_Hockey_App.Models.viewmodels.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="/Content/largeDesktop/login.css" rel="stylesheet" />
+<link href="/Content/smallDesktop/login.css" rel="stylesheet" media="(min-width:1200px) and (max-width:1399px)" />
+<link href="/Content/tablet/login.css" rel="stylesheet" media="(max-width:1199px)"/>
+
+<div class="content-wrapper">
+    <img src="/Content/images/vbha-logo.png" />
+    <div class="login-wrapper">
+        <p class="error">@ViewBag.Error</p>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            @Html.LabelFor(x => x.Username, new { })
+            @Html.TextBoxFor(x => x.Username, new { })
+            @Html.ValidationMessageFor(x=>x.Username, "", new { @class="error" })
+            <br />
+            @Html.LabelFor(x => x.Password, new { })
+            @Html.TextBoxFor(x => x.Password, new { })
+            @Html.ValidationMessageFor(x=>x.Username, "", new { @class="error" })
+
+            <input type="submit" value="Login" class="login-button" />
+        }
+        
+    </div>
+</div>
+
+

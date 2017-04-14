@@ -1,0 +1,61 @@
+﻿.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.content-wrapper {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+    margin-top: -154.5px;
+}
+
+    .content-wrapper img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+.login-wrapper label {
+    width: 100px;
+    display: inline-block;
+}
+
+.login-wrapper p {
+    text-align: center;
+    margin-left: 0;
+}
+
+.login-wrapper input[type=text] {
+    padding: 5px 10px;
+    width: 200px;
+}
+
+.login-wrapper input[type=text]:nth-of-type(2){
+    margin-top:20px;
+}
+
+.login-button {
+    display: block;
+    background-color: #EF5225;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.error {
+    color: red;
+    display: block;
+    margin-left: 100px;
+}
