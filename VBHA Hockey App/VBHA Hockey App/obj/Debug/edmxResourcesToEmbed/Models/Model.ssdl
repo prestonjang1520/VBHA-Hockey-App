@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="prestonjang_VBHA_HockeyAppModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityType Name="admins">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Added" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="Deleted" Type="datetime" Precision="0" />
+    <Property Name="Password" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="coaches">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Added" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="Deleted" Type="datetime" Precision="0" />
+    <Property Name="FirstName" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="TeamID" Type="int" />
+    <Property Name="Password" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="players">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Added" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="Deleted" Type="datetime" Precision="0" />
+    <Property Name="FirstName" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Position" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="Speed" Type="int" Nullable="false" />
+    <Property Name="Shot" Type="int" Nullable="false" />
+    <Property Name="Dexterity" Type="int" Nullable="false" />
+    <Property Name="Tenacity" Type="int" Nullable="false" />
+    <Property Name="HockeyIQ" Type="int" Nullable="false" />
+    <Property Name="Attendance" Type="int" Nullable="false" />
+    <Property Name="Birthday" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="teams">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Added" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="Deleted" Type="datetime" Precision="0" />
+    <Property Name="Name" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="prestonjang_VBHA_HockeyAppModelStoreContainer">
+    <EntitySet Name="admins" EntityType="Self.admins" Schema="prestonjang_vbha_hockeyapp" store:Type="Tables" />
+    <EntitySet Name="coaches" EntityType="Self.coaches" Schema="prestonjang_vbha_hockeyapp" store:Type="Tables" />
+    <EntitySet Name="players" EntityType="Self.players" Schema="prestonjang_vbha_hockeyapp" store:Type="Tables" />
+    <EntitySet Name="teams" EntityType="Self.teams" Schema="prestonjang_vbha_hockeyapp" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

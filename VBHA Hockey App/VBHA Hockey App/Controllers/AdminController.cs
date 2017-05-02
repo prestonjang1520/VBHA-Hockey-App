@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using VBHA_Hockey_App.Models;
+using VBHA_Hockey_App.Models.viewmodels;
 
 namespace VBHA_Hockey_App.Controllers
 {
@@ -12,7 +14,11 @@ namespace VBHA_Hockey_App.Controllers
         // GET: Admin
         public ActionResult Index()
         {
-            return View();
+            AdminViewModel viewModel = new AdminViewModel();
+            viewModel.CoachesList = new CoachesViewModel();
+            viewModel.TeamsList = new TeamsViewModel();
+            
+            return View(viewModel);
         }
     }
 }
