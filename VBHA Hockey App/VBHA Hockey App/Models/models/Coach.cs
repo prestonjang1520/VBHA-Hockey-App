@@ -21,10 +21,29 @@ namespace VBHA_Hockey_App.Models
             newCoach.Email = viewModel.Email;
             newCoach.FirstName = viewModel.FirstName;
             newCoach.LastName = viewModel.LastName;
-            newCoach.TeamID = viewModel.SelectedTeam;
+
+            if(viewModel.SelectedTeam != 0)
+                newCoach.TeamID = viewModel.SelectedTeam;
+
             newCoach.Password = Hashing.HashPassword(viewModel.Password);
 
             return Global.Repository.Create<coach>(newCoach);
+        }
+
+        public NewCoachViewModel GenerateViewModel()
+        {
+            NewCoachViewModel viewModel = new NewCoachViewModel();
+            viewModel.Email = this.Email;
+            viewModel.FirstName = this.FirstName;
+            viewModel.LastName = this.LastName;
+            
+            if(this.TeamID != null)
+            {
+                viewModel.SelectedTeam = (int)this.TeamID;
+                viewModel.TeamName = team.GetByID((int)this.TeamID).Name;
+            }
+            
+            return viewModel;
         }
     }
 }

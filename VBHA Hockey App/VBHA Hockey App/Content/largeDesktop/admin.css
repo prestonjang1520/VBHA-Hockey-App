@@ -1,0 +1,74 @@
+﻿.body-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.teams-wrapper h2, .coaches-wrapper h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom:20px;
+}
+
+.teams-wrapper{
+    margin-bottom:40px;
+}
+
+    .teams-wrapper a {
+        background: #EF5225;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+.no-objects {
+    margin-top: 40px;
+}
+
+    .coaches-wrapper > a {
+        background: #EF5225;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+.team-list {
+    margin-top: 40px;
+}
+
+    .team-list .header ul {
+        background: #404041;
+        font-weight: bold;
+        color: #EF5225;
+    }
+
+    .team-list ul li {
+        width: 47%;
+        padding: 15px 15px;
+        display: inline-block;
+    }
+
+        .team-list .header li:first-of-type {
+            border-right: 1px solid #F1F1F2;
+        }
+
+.team:nth-of-type(odd) ul {
+    background: #dadada;
+}
+
+.team:nth-of-type(even) ul {
+    background: #ffffff;
+}
+
+    .team ul li:first-of-type {
+        border-right: 1px solid #F1F1F2;
+    }
+
+.team a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #EF5225;
+}

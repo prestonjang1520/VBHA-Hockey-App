@@ -1,0 +1,19 @@
+﻿@model VBHA_Hockey_App.Models.viewmodels.NewTeamViewModel
+@{
+    ViewBag.Title = "Add a Team";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="teams-wrapper">
+    <h2>Add Team</h2>
+    @using (Html.BeginForm())
+    {
+        <label>Team Name</label>
+        @Html.TextBoxFor(x=>x.TeamName)
+
+        <input type="submit" class="submit-button" value="Create" />
+    }
+</div>
+
+
+

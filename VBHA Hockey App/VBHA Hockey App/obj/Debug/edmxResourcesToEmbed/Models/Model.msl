@@ -26,25 +26,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="players">
-      <EntityTypeMapping TypeName="prestonjang_VBHA_HockeyAppModel.player">
-        <MappingFragment StoreEntitySet="players">
-          <ScalarProperty Name="ID" ColumnName="ID" />
-          <ScalarProperty Name="Added" ColumnName="Added" />
-          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
-          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
-          <ScalarProperty Name="LastName" ColumnName="LastName" />
-          <ScalarProperty Name="Position" ColumnName="Position" />
-          <ScalarProperty Name="Speed" ColumnName="Speed" />
-          <ScalarProperty Name="Shot" ColumnName="Shot" />
-          <ScalarProperty Name="Dexterity" ColumnName="Dexterity" />
-          <ScalarProperty Name="Tenacity" ColumnName="Tenacity" />
-          <ScalarProperty Name="HockeyIQ" ColumnName="HockeyIQ" />
-          <ScalarProperty Name="Attendance" ColumnName="Attendance" />
-          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="teams">
       <EntityTypeMapping TypeName="prestonjang_VBHA_HockeyAppModel.team">
         <MappingFragment StoreEntitySet="teams">
@@ -52,6 +33,26 @@
           <ScalarProperty Name="Added" ColumnName="Added" />
           <ScalarProperty Name="Deleted" ColumnName="Deleted" />
           <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="players">
+      <EntityTypeMapping TypeName="prestonjang_VBHA_HockeyAppModel.player">
+        <MappingFragment StoreEntitySet="players">
+          <ScalarProperty Name="TeamID" ColumnName="TeamID" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Attendance" ColumnName="Attendance" />
+          <ScalarProperty Name="HockeyIQ" ColumnName="HockeyIQ" />
+          <ScalarProperty Name="Tenacity" ColumnName="Tenacity" />
+          <ScalarProperty Name="Dexterity" ColumnName="Dexterity" />
+          <ScalarProperty Name="Shot" ColumnName="Shot" />
+          <ScalarProperty Name="Speed" ColumnName="Speed" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="Added" ColumnName="Added" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

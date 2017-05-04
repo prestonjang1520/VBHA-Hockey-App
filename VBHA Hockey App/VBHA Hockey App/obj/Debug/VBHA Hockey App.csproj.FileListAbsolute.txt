@@ -1,2 +1,60 @@
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\ApplicationInsights.config
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\VBHA Hockey App.dll.config
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\VBHA Hockey App.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\VBHA Hockey App.pdb
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\VBHA Hockey App.etwManifests.lst
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Antlr3.Runtime.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\BCrypt.Net.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\EntityFramework.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.AI.Web.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Newtonsoft.Json.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.IO.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Net.Http.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Net.Http.Extensions.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Net.Http.Primitives.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Net.Http.WebRequest.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Runtime.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Threading.Tasks.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.Helpers.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.Mvc.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.Optimization.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.Razor.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.WebPages.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.WebPages.Razor.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\WebGrease.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Antlr3.Runtime.pdb
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\BCrypt.Net.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\EntityFramework.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.AI.Web.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\Newtonsoft.Json.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.IO.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Net.Http.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Net.Http.Extensions.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Net.Http.Primitives.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Net.Http.WebRequest.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Runtime.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Threading.Tasks.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.Helpers.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.Mvc.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.Optimization.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.Razor.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.WebPages.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\bin\System.Web.WebPages.Razor.xml
 C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\obj\Debug\VBHA Hockey App.csproj.App.config
-C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\obj\Debug\VBHA Hockey App.csprojResolveAssemblyReference.cache
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\obj\Debug\VBHA Hockey App.dll
+C:\Users\Preston Jang\Documents\GitHub\VBHA-Hockey-App\VBHA Hockey App\VBHA Hockey App\obj\Debug\VBHA Hockey App.pdb

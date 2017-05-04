@@ -23,24 +23,6 @@
     <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
   </EntityType>
-  <EntityType Name="player">
-    <Key>
-      <PropertyRef Name="ID" />
-    </Key>
-    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Added" Type="DateTime" Nullable="false" />
-    <Property Name="Deleted" Type="DateTime" />
-    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Position" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Speed" Type="Int32" Nullable="false" />
-    <Property Name="Shot" Type="Int32" Nullable="false" />
-    <Property Name="Dexterity" Type="Int32" Nullable="false" />
-    <Property Name="Tenacity" Type="Int32" Nullable="false" />
-    <Property Name="HockeyIQ" Type="Int32" Nullable="false" />
-    <Property Name="Attendance" Type="Int32" Nullable="false" />
-    <Property Name="Birthday" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-  </EntityType>
   <EntityType Name="team">
     <Key>
       <PropertyRef Name="ID" />
@@ -53,7 +35,26 @@
   <EntityContainer Name="prestonjang_VBHA_HockeyAppEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="admins" EntityType="Self.admin" />
     <EntitySet Name="coaches" EntityType="Self.coach" />
-    <EntitySet Name="players" EntityType="Self.player" />
     <EntitySet Name="teams" EntityType="Self.team" />
+    <EntitySet Name="players" EntityType="prestonjang_VBHA_HockeyAppModel.player" />
   </EntityContainer>
+  <EntityType Name="player">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Added" Type="DateTime" Nullable="false" />
+    <Property Name="Deleted" Type="DateTime" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Position" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="Speed" Type="Int32" Nullable="false" />
+    <Property Name="Shot" Type="Int32" Nullable="false" />
+    <Property Name="Dexterity" Type="Int32" Nullable="false" />
+    <Property Name="Tenacity" Type="Int32" Nullable="false" />
+    <Property Name="HockeyIQ" Type="Int32" Nullable="false" />
+    <Property Name="Attendance" Type="Int32" Nullable="false" />
+    <Property Name="Birthday" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TeamID" Type="Int32" Nullable="false" />
+  </EntityType>
 </Schema>

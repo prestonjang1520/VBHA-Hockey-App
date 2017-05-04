@@ -7,9 +7,15 @@ namespace VBHA_Hockey_App.Models.viewmodels
 {
     public class CoachesViewModel
     {
-        public List<coach> Coaches { get
+        public List<NewCoachViewModel> Coaches { get
             {
-                return coach.GetAll();
+                List<NewCoachViewModel> coaches = new List<NewCoachViewModel>();
+                foreach(var c in coach.GetAll())
+                {
+                    coaches.Add(c.GenerateViewModel());
+                }
+
+                return coaches;
             }
         }
     }

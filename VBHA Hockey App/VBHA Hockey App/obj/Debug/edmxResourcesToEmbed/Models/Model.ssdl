@@ -40,6 +40,7 @@
     <Property Name="HockeyIQ" Type="int" Nullable="false" />
     <Property Name="Attendance" Type="int" Nullable="false" />
     <Property Name="Birthday" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TeamID" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="teams">
     <Key>

@@ -20,5 +20,42 @@ namespace VBHA_Hockey_App.Controllers
             
             return View(viewModel);
         }
+
+        [HttpGet]
+        public ActionResult AddCoach()
+        {
+            NewCoachViewModel ncvm = new NewCoachViewModel();
+            return View(ncvm);
+        }
+
+        [HttpPost]
+        public ActionResult AddCoach(NewCoachViewModel data)
+        {
+            if (ModelState.IsValid)
+            {
+                coach.Create(data);
+                return RedirectToAction("Index");
+            }
+
+            return View(data);
+        }
+
+        [HttpGet]
+        public ActionResult AddTeam()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult AddTeam(NewTeamViewModel data)
+        {
+            if (ModelState.IsValid)
+            {
+                team.Create(data);
+                return RedirectToAction("Index");
+            }
+
+            return View(data);
+        }
     }
 }

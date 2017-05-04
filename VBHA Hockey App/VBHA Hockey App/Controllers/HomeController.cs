@@ -13,5 +13,18 @@ namespace VBHA_Hockey_App.Controllers
         {
             return View();
         }
+
+        public ActionResult Header()
+        {
+            if (Request.Cookies["admin"] != null)
+            {
+                ViewBag.Person = "Admin";
+            }else if (Request.Cookies["coach"] != null)
+            {
+                ViewBag.Person = "Coach";
+            }
+
+            return PartialView();
+        }
     }
 }

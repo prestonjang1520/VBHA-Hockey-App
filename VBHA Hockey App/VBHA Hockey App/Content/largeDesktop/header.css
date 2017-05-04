@@ -1,0 +1,27 @@
+﻿.navbar {
+    padding: 20px 80px;
+    margin-bottom: 20px;
+}
+
+
+    .navbar img {
+        width: 75px;
+    }
+
+    .navbar .header-right {
+        float: right;
+        padding-top: 53px;
+    }
+
+.header-right p {
+    display: inline-block;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+    .header-right a {
+        color: #EF5225;
+        text-decoration: none;
+        font-size: 18px;
+    }

@@ -7,9 +7,9 @@ namespace VBHA_Hockey_App.Models.viewmodels
 {
     public class TeamsViewModel
     {
-        public List<Team> Teams { get
+        public List<team> Teams { get
             {
-                return Team.GetAll();
+                return team.GetAll();
             }
         }
     }

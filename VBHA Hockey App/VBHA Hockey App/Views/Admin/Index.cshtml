@@ -1,8 +1,76 @@
-﻿
+﻿@model VBHA_Hockey_App.Models.viewmodels.AdminViewModel
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<link href="/Content/largeDesktop/admin.css" rel="stylesheet" />
+
+<div class="teams-wrapper">
+    <h2>Coaches</h2>
+    @Html.ActionLink("Add New Coach", "AddCoach")
+    @if (Model.CoachesList.Coaches == null || Model.CoachesList.Coaches.Count() == 0)
+    {
+        <p class="no-objects">No coaches.</p>
+    }
+    else
+    {
+        <ul class="coach-list">
+            <li class="header">
+                <ul>
+                    <li>Name</li>
+                    <li>Email</li>
+                    <li>Team</li>
+                </ul>
+            </li>
+            @foreach(var coach in Model.CoachesList.Coaches)
+            {
+                <li class="coach-row">
+                    @coach.FirstName  @coach.LastName
+                </li>
+                <li>
+                    @coach.Email
+                </li>
+                <li>
+                    @coach.TeamName
+                </li>
+            }
+        </ul>
+        
+    }
+</div>
+<div class="coaches-wrapper">
+    <h2>Teams</h2>
+    @Html.ActionLink("Add New Team", "AddTeam")
+    @if (Model.TeamsList.Teams == null || Model.TeamsList.Teams.Count() == 0)
+    {
+        <p class="no-objects">No teams.</p>
+    }
+    else
+    {
+        <ul class="team-list">
+            <li class="header">
+                <ul>
+                    <li>Team Name</li>
+                    <li></li>
+                </ul>
+            </li>
+            @foreach(var t in Model.TeamsList.Teams)
+            {
+                <li class="team">
+                    <ul>
+                        <li>@t.Name</li>
+                        <li>
+                            @Html.ActionLink("Manage", "Index", "Team", new { teamID = t.ID }, new { @class="manage-button" })
+                            @Html.ActionLink("Import", "Import", "Admin", new { teamID = t.ID }, new { @class="import-button" })
+                            @Html.ActionLink("Export", "Export", "Admin", new { teamID = t.ID }, new { @class = "export-button" })
+                            @Html.ActionLink("Delete", "Delete", "Team", new { teamID = t.ID }, new { @class = "export-button" })
+                        </li>
+                    </ul>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
 
